@@ -11,7 +11,7 @@ import io.quarkus.logging.Log;
 @Path("/hello")
 public class GreetingResource {
 
-    @Inject serviceNow service;
+    @Inject ServiceNow service;
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
